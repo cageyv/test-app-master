@@ -1,0 +1,18 @@
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=cyrillic');
+
+/* Common styles
+-------------------------- */
+html, body, #app  {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  flex: auto;
+}
+#app, .app-wrapper {
+  flex: auto;
+}
